@@ -1,0 +1,81 @@
+html, body, img, p {
+	margin: 0 auto;
+	padding: 0;
+	list-style-type: none;
+}
+
+.clearfix {
+	overflow: auto;
+}
+
+
+.image {
+    width: 100%;
+}
+
+.image>img {
+    max-width: 100%;
+    float: center;
+}
+
+#title {
+	font-family: 'Tangerine', cursive;
+	font-size: 350%;
+	font-weight: bold;
+	padding-left: 3%;
+	padding-top: 3%;
+	padding-bottom: 2.3%;
+	color: #458AAE;
+	text-align: center;
+}
+
+
+#text {
+	font-family: 'Architects Daughter', cursive;
+	font-size: 127%;
+	padding-left: 3%;
+	padding-top: 1%;
+	padding-bottom: 2%;
+	padding-right: 1%;
+}
+
+#text1 {
+	font-family: 'Architects Daughter', cursive;
+	font-size: 127%;
+	padding-left: 3%;
+	padding-top: 1%;
+	padding-bottom: 2%;
+	padding-right: 1%;
+}
+
+#map {
+	padding-left: 3%;
+	font-family: 'Great Vibes', cursive;
+	font-weight: bold;
+	font-size: 170%;
+	color: #0CABE6;
+	padding-bottom: 5%;
+	
+}
+
+a {
+    text-decoration: none;
+}
+
+#one {
+    background-color: #0875A9;
+    height: 7%;
+    width: 30%;
+    color: #93B5C7;
+    margin-left: 34.5%;
+    font-family: 'Calligraffitti', cursive;
+    font-weight: bold;
+    font-size: 160%;
+    margin-top: 6%;
+    border: none;
+    margin-bottom: 8%;
+}
+
+a:hover{
+    opacity: 0.6;
+}

@@ -1,0 +1,106 @@
+html, body, nav, div, img, ul, p {
+	margin: 0 auto;
+	padding: 0;
+	list-style-type: none;
+
+}
+
+@media (min-width: 960px) {
+
+   body {
+    width: 61.75em;
+    margin: 0 auto;
+    
+   }
+
+}
+
+.clearfix {
+	overflow: auto;
+}
+
+.page {
+	max-width: 40em;
+    
+}
+
+nav {
+ 	max-width: 100%;
+}
+
+
+.part-one img {
+	max-width: 100%;
+}
+
+.menu-list {
+    padding-top: 1%;
+    margin-left: 4%;
+    cursor: pointer;
+    position: relative;
+    font-family: 'Calligraffitti', cursive;
+    font-weight: bold;
+    color: #04B2D2;
+    font-size: 250%;
+    
+}
+
+.nav-list {
+    background-color: #9CB9C7;
+    width: 100%;
+    padding: 2%;
+    position: relative;
+    left: -2%;
+    display: none;
+	font-family: 'Lora', serif;
+	color: #0C85D2
+}
+
+.nav-list li {
+    display: block;
+    float: none;
+    margin-bottom: 2%;
+    padding-bottom: 0%;
+    padding-left: 3%;
+    padding-top: 2%;
+
+}
+
+a {
+    text-decoration: none;
+    color: #105173;
+    font-size: 150%;
+}
+
+a:hover{
+    opacity: 0.6;
+}
+
+.title {
+	padding-left: 3%;
+	padding-top: 1%;
+	padding-bottom: 3%;
+	font-family: 'Tangerine', cursive;
+	font-size: 350%;
+	color: #458AAE;
+	text-align: center;
+}
+
+.text {
+	font-family: 'Architects Daughter', cursive;
+	font-size: 127%;
+	padding-left: 3%;
+	padding-top: 1%;
+	padding-bottom: 4%;
+	padding-right: 1%;
+}
+
+#learn {
+	text-align: center;
+	font-family: 'Great Vibes', cursive;
+	font-size: 180%;
+	font-weight: bold;
+	color: #0CABE6;
+	padding-bottom: 5%;
+	padding-left: 40%;
+}

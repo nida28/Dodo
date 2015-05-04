@@ -1,0 +1,80 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Learn About The Dodo</title>
+	<link href='http://fonts.googleapis.com/css?family=Lora:400,700,700italic|Calligraffitti|Tangerine:700|Great+Vibes|Architects+Daughter|Handlee&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="css/main-style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+</head>
+
+
+<body>
+	<div class="part-one">
+		<nav>
+			
+			<img src="imgs/dodo.png">
+			
+			<p class="menu-list">Menu</p>
+		
+			<ul class="nav-list">
+				<li>
+					<a class="history" href="pages/history.html">
+						History
+					</a>
+				</li>
+				<li>
+					<a class="location" href="pages/location.html">
+						Location
+					</a>
+				</li>
+				<li>
+					<a class="remains" href="pages/remains.html">
+						Physical Remains
+					</a>
+				</li>
+			</ul>
+		
+		</nav>	
+	</div>
+	
+	<div class="title">
+		The Story Of The Dodo Bird
+	</div>
+
+	<div class="text">
+		The Dodo bird or Raphus Cucullatus was a flightless bird native to the island of Mauritius, near the island of Madagascar in the Indian Ocean. The closest relatives to the dodo bird are pigeons and doves, even though dodo birds were much larger in size. On average, dodo birds stood 3 feet tall and weighted about 40 lb. Unfortunately, due to aggressive human population, dodo birds became extinct in late 17th century.
+	</div>
+
+	<a id="learn" href="http://en.wikipedia.org/wiki/Dodo" title="Learn More >>" target="_blank">Learn More >></a>
+
+
+<script type="text/javascript">
+	$(function() {
+		$nav = $('.nav-list');
+
+		$('.menu-list').click(function(){
+			$nav.slideToggle();
+		});
+	});
+	
+</script>
+
+<script type="text/javascript">
+	$(function(){
+		$('a.history').click(function(){
+			$('html, body').animate({scrollTop:$('#history').offset().top}, 1000);
+		});
+		
+		$('a.location').click(function(){
+			$('html, body').animate({scrollTop:$('#location').offset().top}, 1000);
+		});
+		
+		$('a.remains').click(function(){
+			$('html, body').animate({scrollTop:$('#remains').offset().top}, 1000);
+		});
+
+	});
+</script>
+
+</body>
+</html>
